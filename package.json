@@ -1,0 +1,37 @@
+{
+  "name": "two-changechange",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "alpha": "vue-cli-service build --mode alpha",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "compression-webpack-plugin": "^2.0.0",
+    "js-base64": "^2.4.8",
+    "js-sha1": "^0.6.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "moment": "^2.22.2",
+    "vant": "^1.6.5",
+    "vue": "^2.5.17",
+    "vue-amap": "^0.5.8",
+    "vue-native-websocket": "^2.0.12",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "weixin-js-sdk": "^1.4.0-test"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "moment": "^2.22.2",
+    "node-sass": "^4.9.0",
+    "postcss-pxtorem": "^4.0.1",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
